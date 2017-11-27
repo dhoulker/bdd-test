@@ -4,7 +4,8 @@ Feature:
 
   Scenario:
     As a Content Author
-Given I add [Component] of the specified type
+Given I add [Component] of the specified type hello world
+
 When the field is a rich text field only (not applicable for plain text)
 When I define static text combined with a dynamic attribute (Hello[ %FirstName %Surname]) in any of the applicable text fields
 And I apply some standard [component] formatting in the static text or dynamic attributes i.e. italic, bold, etc..
